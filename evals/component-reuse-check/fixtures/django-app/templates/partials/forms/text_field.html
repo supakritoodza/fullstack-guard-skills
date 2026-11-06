@@ -1,0 +1,2 @@
+{# args: name, label, value, type=text|email, error #}
+<label class="field">{{ label }}<input name="{{ name }}" type="{{ type|default:'text' }}" value="{{ value|default:'' }}">{% if error %}<small>{{ error }}</small>{% endif %}</label>

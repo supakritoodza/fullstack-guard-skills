@@ -1,0 +1,4 @@
+{% extends "layouts/app.html" %}{% block content %}{% include "partials/page_header.html" with title="Orders" %}
+{% if cancelled %}{% include "partials/notice.html" with tone="success" text="Orders cancelled." %}{% endif %}
+{% include "partials/button.html" with label="Cancel all" variant="danger" icon="partials/icons/trash.html" attrs='data-sheet="cancel-all"' %}
+{% url 'orders' as orders_url %}{% include "partials/orders/confirm_sheet.html" with id="cancel-all" title="Cancel all orders?" body="This cannot be undone." confirm_label="Cancel all" action_url=orders_url %}{% endblock %}

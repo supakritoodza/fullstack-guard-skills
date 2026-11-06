@@ -1,0 +1,2 @@
+{# args: label, variant=primary|secondary|danger, type=button|submit, icon=path of icon partial, attrs #}
+<button type="{{ type|default:'button' }}" class="btn btn-{{ variant|default:'primary' }}" {{ attrs|default:'' }}>{% if icon %}{% include icon %}{% endif %}{{ label }}</button>

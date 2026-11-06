@@ -1,0 +1,20 @@
+{
+  "react-app": {
+    "reuse": {
+      "layout": "\\bAppShell\\b", "page header": "\\bPageHeader\\b", "text input": "\\bTextField\\b",
+      "switch": "\\bSwitch\\b", "button": "\\bButton\\b", "save icon": "\\bSaveIcon\\b",
+      "trash icon": "\\bTrashIcon\\b", "dialog": "\\bConfirmSheet\\b", "notice": "\\bNotice\\b"
+    },
+    "nav_file": "src/shell/nav.ts",
+    "page_dir": "src/pages/"
+  },
+  "django-app": {
+    "reuse": {
+      "layout": "layouts/app\\.html", "page header": "partials/page_header\\.html", "text input": "partials/forms/text_field\\.html",
+      "switch": "partials/forms/switch\\.html", "button": "partials/button\\.html", "save icon": "partials/icons/save\\.html",
+      "trash icon": "partials/icons/trash\\.html", "dialog": "partials/orders/confirm_sheet\\.html", "notice": "partials/notice\\.html"
+    },
+    "nav_file": "shop/nav.py",
+    "page_dir": "templates/pages/"
+  }
+}

@@ -1,0 +1,1 @@
+Add a Settings page to this app. It needs a profile form with name and email, an on/off setting for email notifications, a Save button with a save icon, a success message after saving, and a Delete account button with a trash icon that asks for confirmation first. Add it to the navigation. Write the code only; there is no need to install or run anything.

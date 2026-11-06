@@ -1,0 +1,258 @@
+[
+  {
+    "id": "django-app-large-plain-1",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 1,
+    "raw_detail": {
+      "raw control": 1,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [],
+    "tokens": 263309,
+    "fresh_tokens": 31991,
+    "cost_usd": 0.01200878,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-plain-2",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 1,
+    "raw_detail": {
+      "raw control": 1,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [],
+    "tokens": 295266,
+    "fresh_tokens": 39875,
+    "cost_usd": 0.01493121,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-plain-3",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "reused": 8,
+    "total_parts": 9,
+    "missed": [
+      "dialog"
+    ],
+    "nav_updated": true,
+    "raw_hits": 0,
+    "raw_detail": {
+      "raw control": 0,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [],
+    "tokens": 193683,
+    "fresh_tokens": 33515,
+    "cost_usd": 0.01169238,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-skill-1",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 0,
+    "raw_detail": {
+      "raw control": 0,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [],
+    "tokens": 266235,
+    "fresh_tokens": 37418,
+    "cost_usd": 0.01349477,
+    "triggered": true
+  },
+  {
+    "id": "django-app-large-skill-2",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 0,
+    "raw_detail": {
+      "raw control": 0,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [],
+    "tokens": 281808,
+    "fresh_tokens": 35782,
+    "cost_usd": 0.01312286,
+    "triggered": true
+  },
+  {
+    "id": "django-app-large-skill-3",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 0,
+    "raw_detail": {
+      "raw control": 0,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [],
+    "tokens": 284663,
+    "fresh_tokens": 34787,
+    "cost_usd": 0.01261316,
+    "triggered": true
+  },
+  {
+    "id": "react-app-large-plain-1",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 0,
+    "raw_detail": {
+      "raw control": 0,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [
+      "src/features/settings/components/SettingsForm.tsx"
+    ],
+    "tokens": 166380,
+    "fresh_tokens": 35419,
+    "cost_usd": 0.011539510000000001,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-plain-2",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 0,
+    "raw_detail": {
+      "raw control": 0,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [],
+    "tokens": 207189,
+    "fresh_tokens": 24985,
+    "cost_usd": 0.008858340000000001,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-plain-3",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 1,
+    "raw_detail": {
+      "raw control": 0,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 1
+    },
+    "extra_ui_files": [],
+    "tokens": 227047,
+    "fresh_tokens": 21640,
+    "cost_usd": 0.00769067,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-skill-1",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 0,
+    "raw_detail": {
+      "raw control": 0,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [],
+    "tokens": 199378,
+    "fresh_tokens": 31567,
+    "cost_usd": 0.010608510000000002,
+    "triggered": true
+  },
+  {
+    "id": "react-app-large-skill-2",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 0,
+    "raw_detail": {
+      "raw control": 0,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [],
+    "tokens": 174288,
+    "fresh_tokens": 32884,
+    "cost_usd": 0.01076314,
+    "triggered": true
+  },
+  {
+    "id": "react-app-large-skill-3",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "reused": 9,
+    "total_parts": 9,
+    "missed": [],
+    "nav_updated": true,
+    "raw_hits": 0,
+    "raw_detail": {
+      "raw control": 0,
+      "inline icon": 0,
+      "hard-coded color": 0,
+      "inline style": 0
+    },
+    "extra_ui_files": [],
+    "tokens": 165124,
+    "fresh_tokens": 28195,
+    "cost_usd": 0.00912179,
+    "triggered": true
+  }
+]

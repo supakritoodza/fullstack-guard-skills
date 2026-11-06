@@ -1,0 +1,279 @@
+[
+  {
+    "id": "django-app-large-plain-1",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 387,
+    "tokens": 106709,
+    "fresh_tokens": 9488,
+    "cost_usd": 0.0572261,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-plain-2",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 428,
+    "tokens": 107567,
+    "fresh_tokens": 10090,
+    "cost_usd": 0.0613397,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-plain-3",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 367,
+    "tokens": 87739,
+    "fresh_tokens": 8952,
+    "cost_usd": 0.052384700000000006,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-plain-4",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 352,
+    "tokens": 108023,
+    "fresh_tokens": 10147,
+    "cost_usd": 0.0610676,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-plain-5",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 396,
+    "tokens": 91978,
+    "fresh_tokens": 11461,
+    "cost_usd": 0.0638177,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-skill-1",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "found": 8,
+    "total_parts": 9,
+    "missed": [
+      "notice"
+    ],
+    "answer_words": 262,
+    "tokens": 94264,
+    "fresh_tokens": 11347,
+    "cost_usd": 0.0619937,
+    "triggered": true
+  },
+  {
+    "id": "django-app-large-skill-2",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "found": 8,
+    "total_parts": 9,
+    "missed": [
+      "notice"
+    ],
+    "answer_words": 301,
+    "tokens": 93961,
+    "fresh_tokens": 11020,
+    "cost_usd": 0.0608921,
+    "triggered": true
+  },
+  {
+    "id": "django-app-large-skill-3",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "found": 8,
+    "total_parts": 9,
+    "missed": [
+      "notice"
+    ],
+    "answer_words": 266,
+    "tokens": 94272,
+    "fresh_tokens": 11091,
+    "cost_usd": 0.0613321,
+    "triggered": true
+  },
+  {
+    "id": "django-app-large-skill-4",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 228,
+    "tokens": 117802,
+    "fresh_tokens": 12321,
+    "cost_usd": 0.0686581,
+    "triggered": true
+  },
+  {
+    "id": "django-app-large-skill-5",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 254,
+    "tokens": 115366,
+    "fresh_tokens": 11467,
+    "cost_usd": 0.06540789999999999,
+    "triggered": true
+  },
+  {
+    "id": "react-app-large-plain-1",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 364,
+    "tokens": 113784,
+    "fresh_tokens": 13107,
+    "cost_usd": 0.07402770000000002,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-plain-2",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 376,
+    "tokens": 93665,
+    "fresh_tokens": 12841,
+    "cost_usd": 0.0695544,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-plain-3",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "found": 8,
+    "total_parts": 9,
+    "missed": [
+      "dialog"
+    ],
+    "answer_words": 342,
+    "tokens": 111948,
+    "fresh_tokens": 12118,
+    "cost_usd": 0.069633,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-plain-4",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "found": 7,
+    "total_parts": 9,
+    "missed": [
+      "page header",
+      "text input"
+    ],
+    "answer_words": 399,
+    "tokens": 108453,
+    "fresh_tokens": 10479,
+    "cost_usd": 0.06298740000000001,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-plain-5",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 299,
+    "tokens": 112905,
+    "fresh_tokens": 12595,
+    "cost_usd": 0.06997500000000001,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-skill-1",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "found": 8,
+    "total_parts": 9,
+    "missed": [
+      "notice"
+    ],
+    "answer_words": 231,
+    "tokens": 95091,
+    "fresh_tokens": 11600,
+    "cost_usd": 0.06372910000000001,
+    "triggered": true
+  },
+  {
+    "id": "react-app-large-skill-2",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "found": 8,
+    "total_parts": 9,
+    "missed": [
+      "notice"
+    ],
+    "answer_words": 247,
+    "tokens": 116453,
+    "fresh_tokens": 12336,
+    "cost_usd": 0.0712097,
+    "triggered": true
+  },
+  {
+    "id": "react-app-large-skill-3",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 206,
+    "tokens": 95457,
+    "fresh_tokens": 11615,
+    "cost_usd": 0.06378819999999999,
+    "triggered": true
+  },
+  {
+    "id": "react-app-large-skill-4",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 288,
+    "tokens": 119512,
+    "fresh_tokens": 13158,
+    "cost_usd": 0.0731794,
+    "triggered": true
+  },
+  {
+    "id": "react-app-large-skill-5",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "found": 8,
+    "total_parts": 9,
+    "missed": [
+      "notice"
+    ],
+    "answer_words": 215,
+    "tokens": 117052,
+    "fresh_tokens": 12126,
+    "cost_usd": 0.0691666,
+    "triggered": true
+  }
+]

@@ -1,0 +1,2 @@
+{% load static %}<!doctype html><html><head><title>{% block title %}Acme{% endblock %}</title><link rel="stylesheet" href="{% static 'css/tokens.css' %}"></head>
+<body class="shell"><aside>{% for n in nav_items %}<a href="{% url n.url_name %}">{{ n.label }}</a>{% endfor %}</aside><main>{% block content %}{% endblock %}</main></body></html>

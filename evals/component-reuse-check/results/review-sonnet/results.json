@@ -1,0 +1,219 @@
+[
+  {
+    "id": "django-app-large-plain-1",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "found": 7,
+    "total_parts": 9,
+    "missed": [
+      "save icon",
+      "trash icon"
+    ],
+    "answer_words": 711,
+    "tokens": 53495,
+    "fresh_tokens": 8772,
+    "cost_usd": 0.1139385,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-plain-2",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "found": 7,
+    "total_parts": 9,
+    "missed": [
+      "save icon",
+      "trash icon"
+    ],
+    "answer_words": 585,
+    "tokens": 53184,
+    "fresh_tokens": 8455,
+    "cost_usd": 0.1084502,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-plain-3",
+    "fixture": "django-app-large",
+    "arm": "plain",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 676,
+    "tokens": 53919,
+    "fresh_tokens": 9061,
+    "cost_usd": 0.1108588,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-skill-1",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "found": 7,
+    "total_parts": 9,
+    "missed": [
+      "save icon",
+      "trash icon"
+    ],
+    "answer_words": 643,
+    "tokens": 54355,
+    "fresh_tokens": 9315,
+    "cost_usd": 0.1156868,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-skill-2",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "found": 9,
+    "total_parts": 9,
+    "missed": [],
+    "answer_words": 701,
+    "tokens": 54027,
+    "fresh_tokens": 9070,
+    "cost_usd": 0.11508050000000002,
+    "triggered": false
+  },
+  {
+    "id": "django-app-large-skill-3",
+    "fixture": "django-app-large",
+    "arm": "skill",
+    "found": 8,
+    "total_parts": 9,
+    "missed": [
+      "dialog"
+    ],
+    "answer_words": 756,
+    "tokens": 54357,
+    "fresh_tokens": 9417,
+    "cost_usd": 0.11102009999999998,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-plain-1",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "found": 0,
+    "total_parts": 9,
+    "missed": [
+      "button",
+      "dialog",
+      "layout",
+      "notice",
+      "page header",
+      "save icon",
+      "switch",
+      "text input",
+      "trash icon"
+    ],
+    "answer_words": 627,
+    "tokens": 53378,
+    "fresh_tokens": 8766,
+    "cost_usd": 0.0799341,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-plain-2",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "found": 1,
+    "total_parts": 9,
+    "missed": [
+      "dialog",
+      "layout",
+      "notice",
+      "page header",
+      "save icon",
+      "switch",
+      "text input",
+      "trash icon"
+    ],
+    "answer_words": 566,
+    "tokens": 52677,
+    "fresh_tokens": 8218,
+    "cost_usd": 0.10258439999999999,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-plain-3",
+    "fixture": "react-app-large",
+    "arm": "plain",
+    "found": 0,
+    "total_parts": 9,
+    "missed": [
+      "button",
+      "dialog",
+      "layout",
+      "notice",
+      "page header",
+      "save icon",
+      "switch",
+      "text input",
+      "trash icon"
+    ],
+    "answer_words": 648,
+    "tokens": 53530,
+    "fresh_tokens": 8797,
+    "cost_usd": 0.08111220000000001,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-skill-1",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "found": 1,
+    "total_parts": 9,
+    "missed": [
+      "dialog",
+      "layout",
+      "notice",
+      "page header",
+      "save icon",
+      "switch",
+      "text input",
+      "trash icon"
+    ],
+    "answer_words": 663,
+    "tokens": 53541,
+    "fresh_tokens": 8824,
+    "cost_usd": 0.08573170000000001,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-skill-2",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "found": 5,
+    "total_parts": 9,
+    "missed": [
+      "dialog",
+      "notice",
+      "save icon",
+      "trash icon"
+    ],
+    "answer_words": 630,
+    "tokens": 53998,
+    "fresh_tokens": 9166,
+    "cost_usd": 0.0954482,
+    "triggered": false
+  },
+  {
+    "id": "react-app-large-skill-3",
+    "fixture": "react-app-large",
+    "arm": "skill",
+    "found": 3,
+    "total_parts": 9,
+    "missed": [
+      "dialog",
+      "notice",
+      "page header",
+      "save icon",
+      "switch",
+      "trash icon"
+    ],
+    "answer_words": 643,
+    "tokens": 54035,
+    "fresh_tokens": 9049,
+    "cost_usd": 0.12377640000000001,
+    "triggered": false
+  }
+]
