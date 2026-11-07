@@ -34,7 +34,7 @@
 **ติดตั้งบางตัวในโปรเจกต์**
 
 ```sh
-git clone https://github.com/supakritoodza/fullstack-guard.git
+git clone https://github.com/supakritoodza/fullstack-guard-skills.git
 cd /path/to/your-project
 mkdir -p .claude/skills
 cp -R /path/to/fullstack-guard/skills/db-performance-check .claude/skills/
