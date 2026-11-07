@@ -20,7 +20,7 @@ Do these in order, and do step 2 before writing any UI code.
 
 ### 1. Build the inventory
 
-Run `scripts/build_inventory.sh` from the project root. It lists UI files with their names and how many files use each one. Short lists print directly. Long lists go to a file, and the script prints the path, so search that file instead of reading it all.
+Run `scripts/build_inventory.sh` from the project root. Scripts are in this skill's own folder, not in the project. It lists UI files with their names and how many files use each one. Short lists print directly. Long lists go to a file, and the script prints the path, so search that file instead of reading it all.
 
 If it finds nothing, the project may keep UI somewhere unusual. Look at the folder layout and project config, then pass the right folders as arguments.
 

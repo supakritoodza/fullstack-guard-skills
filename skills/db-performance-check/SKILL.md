@@ -15,7 +15,8 @@ Find the real cause of a slow query, with numbers to back it up.
 ## Safety
 
 - Run plans that execute the query, such as `EXPLAIN ANALYZE`, on a test database only. They really run, so an `UPDATE` or `DELETE` changes data.
-- Never create indexes or change schema without approval.
+- On a disposable test database you may create an index to measure it. Anywhere else, never create indexes or change schema without approval.
+- The real fix for a schema change is a new migration in the project's own format. Write it, do not apply it outside the test database.
 
 ## Workflow
 
@@ -29,7 +30,7 @@ Find the real cause of a slow query, with numbers to back it up.
    - estimates far from actual rows, which points to stale statistics
    - time spent waiting on locks
 4. **Propose one fix per cause.** Include what it costs too, such as slower writes for a new index.
-5. **Measure again.** Apply the fix on the test database and run the same query on the same data, three times. Report the median.
+5. **Measure again.** Apply the fix on the test database and run the same query on the same data, three times. Report the median, and drop the first run if it was cold. For N+1, report the query count before and after. Do not multiply one timing by the row count and call it measured.
 
 ## Output
 

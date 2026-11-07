@@ -16,7 +16,7 @@ Stop one repo's fix from breaking another, and stop decisions from getting lost 
 
 ### When starting
 
-Read `.handoff.md` in the main repo if it exists. Check it against the code and `git log`, because the file can be out of date. Then say in 3 lines or fewer where the work stands. If the code disagrees with the file, trust the code and say so.
+Find the handoff notes. Many teams already keep them, such as `DEV_HANDOFF.md` or `docs/**/handoff-*.md`, so search for `*handoff*` before using `.handoff.md`. Read the newest one that covers this task. Check it against the code and `git log`, because the file can be out of date. Then say in 3 lines or fewer where the work stands. If the code disagrees with the file, trust the code and say so.
 
 Do not re-decide what the file lists as decided, unless the code proves it wrong or the user asks.
 
@@ -27,11 +27,11 @@ A contract is anything another repo depends on: API routes, fields, types, event
 1. Name what is changing, such as `GET /users` field `name` becoming `fullName`.
 2. Search the other repos for it, including generated clients and tests. Search for the exact name, and open only the files that match.
 3. List the impact per repo.
-4. Decide the order of changes. If the repos deploy separately, keep the old and new forms working together until every repo has moved.
+4. Decide the order of changes. If the repos deploy separately, keep the old and new forms working together until every repo has moved. Mobile and device apps cannot be updated at once, so old versions keep calling the old form. Say how long the old form must stay.
 
 ### Before ending
 
-Update `.handoff.md`. Keep it under 40 lines by removing what is finished and no longer matters.
+Update the handoff file. Follow the team's existing name and folder; only create `.handoff.md` when there is none. Keep it under 40 lines by removing what is finished and no longer matters.
 
 ```markdown
 # Handoff

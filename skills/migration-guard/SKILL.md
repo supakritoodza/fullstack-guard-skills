@@ -20,12 +20,9 @@ Catch migration problems before they reach the main branch.
 ## Workflow
 
 1. **Find the tool.** Read the README, CI config, and project config for the commands that apply, roll back, and show migration status. If they are not there, ask, then write them in the report so nobody has to ask again.
-2. **Find the migrations.** Use `git diff --name-status <base>...HEAD` on the migration folder. Flag any edited or deleted migration that already exists on the base branch.
-3. **Compare with the base branch.** Check for:
-   - duplicate numbers, or more than one head
-   - a migration older than the newest one on base
-   - two branches changing the same table or column
-4. **Run them.** Apply from an empty database, then apply on top of the base branch schema. Report only the command and the error line, not the whole log.
+2. **Run the checks script.** Run `scripts/check_migrations.sh <base-branch>` from the project root (the script is in this skill's own folder, not in the project), adding the migration folder if it is not found. Run it directly; there is no need to read its code first. It only reads git. It lists edited or deleted migrations that exist on base, numbers already used on base, numbers older than base's newest, `.up.sql` files with no `.down.sql`, and risky SQL or ORM operations. Every `Number`, `Edited`, and `Pair` line goes in the report. Read each `Risk` line before you decide.
+3. **Check what the script cannot.** Tools that link migrations by id instead of number, such as Alembic or Django dependencies, can have more than one head, so use the tool's own command for that. Also look for two branches changing the same table or column.
+4. **Run them.** If the project has its own verify command, such as a make target that applies, rolls back, and re-applies, use it. Otherwise apply from an empty database, then on top of the base branch schema. An empty table hides failures such as `NOT NULL` with no default, so add a row first or say the run cannot show it. Report only the command and the error line, not the whole log.
 5. **Try rolling back.** Roll back the new migrations, then apply them again.
 6. **Check drift.** Use the tool's own diff or status command to see whether models and schema still match.
 7. **Check deploy risk.** Read the SQL for dropped data, table rewrites, long locks, and new `NOT NULL` columns with no default. Locking differs by database, so if you are unsure, say that.
